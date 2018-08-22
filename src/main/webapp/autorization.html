@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Вход</title>
+	<link rel="stylesheet" type="text/css" href="css/autorization.css">
+	<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style_index.css">
+    <script type="text/javascript">
+        function showElement(layer){
+        var myLayer = document.getElementById(layer);
+            if(myLayer.style.display=="none"){
+                myLayer.style.display="block";
+                myLayer.backgroundPosition="top";
+            }  
+            else { 
+                myLayer.style.display="none";
+            }
+        }
+    </script>
+</head>
+<body>
+	<header>
+	    <span class="main_name">BRIGADIRR</span>
+		    <div class="menu" onclick="javascript:showElement('v-menu')">
+		        <img src="images/menu.png" class="png_menu">
+		                <a href="autorization.html" id="v-menu" class="v-menu">Вход</a>
+		    </div>
+	</header>
+
+<form name="autorization" method="get" action="admin">
+  <fieldset class="form">
+    <legend>Autorization</legend>
+    <p>
+		<label for="name" class="first">Login:</label>
+		<input  name="login" type="text" id="name">
+	</p>
+    <p><label>Password:</label>
+		<input name="password" id="email"></p>
+  </fieldset>
+<p><input type="submit" value="Вход" class="Vvod"></p>
+</form>
+
+</body>
+</html>

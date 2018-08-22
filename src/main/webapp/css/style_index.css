@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 100px;
+}
+
+.block1 {
+    text-align: center;
+}
+
+.v-menu {
+    display: none;
+    margin: 0px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #1683c6;
+    font-size: large;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    border: 1px solid;
+
+}
+
+.main_name {
+    font-family: 'Gugi', cursive;
+    text-decoration: none;
+    outline: none;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+.png_menu {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.main_link {
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: none;
+    color: #1683c6;
+    font-family: fantasy;
+    letter-spacing: 5px;
+
+}
+.input{
+    width: 200px;
+    height: 200px;
+}
+.products {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    display: grid;
+    text-align: center;
+}
+
+.product-card {
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    padding-top: 10px;
+}
+.product-card_image-container {
+}
+
+.link_product_name {
+    color: #1683c6;
+    font-size: 14px;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding: 2px;
+    outline: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+

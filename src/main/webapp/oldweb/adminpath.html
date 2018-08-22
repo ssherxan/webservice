@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SELECT</title>
+</head>
+<body>
+
+<form  method="post" action="view">
+    <p><select size="3"  name="message">
+        <option disabled>Выберите раздел каталога</option>
+        <option value="Унитазы">Унитазы</option>
+        <option value="Раковины">Раковины</option>
+        <option value="Душевые кабины">Душевые кабины</option>
+        <option value="Ванны">Ванны</option>
+    </select></p>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<a href="javascript:doPopup('panel.html');">Добавить в каталог</a>
+
+<script language="javascript">
+    function doPopup(popupPath) {
+        window.open(popupPath,'name',
+            'width=550,height=550,scrollbars=NO,left=350,top=100');
+    }
+</script>
+
+</body>
+</html>

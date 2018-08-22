@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Panel</title>
+    <link rel="stylesheet" type="text/css" href="../css/panel.css">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style_index.css">
+    <script type="text/javascript">
+        function showElement(layer) {
+            var myLayer = document.getElementById(layer);
+            if (myLayer.style.display == "none") {
+                myLayer.style.display = "block";
+                myLayer.backgroundPosition = "top";
+            }
+            else {
+                myLayer.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <span class="main_name">BRIGADIRR</span>
+    <div class="menu" onclick="javascript:showElement('v-menu')">
+        <img src="../images/menu.png" class="png_menu">
+        <a href="../autorization.html" id="v-menu" class="v-menu">Вход</a>
+    </div>
+</header>
+
+<h2>Работа с каталогом</h2>
+
+<form name="add" method="post" action="addproduct">
+    <fieldset class="form">
+        <legend>Panel</legend>
+        <p class="block1">
+            Id: <input name="id">
+        </p>
+        <p class="block2">
+            Name: <input name="name">
+        </p>
+
+        <p class="block3">
+            Article: <input name="article">
+        </p>
+        <p class="block5">
+            Picture: <input name="picture" type="file" class="block6">
+        </p>
+        <p class="block3">
+            Catalog: <input name="catalog">
+        </p>
+        <p class="block3">
+            Price: <input name="price">
+        </p>
+        <input type="submit" value="Save">
+    </fieldset>
+</form>
+
+
+<table>
+    <tr>
+        <td>
+            <form>
+                <input hidden name="action" value="edit"/>
+                <input type="submit" value=" Редактировать"/>
+            </form>
+        </td>
+        <td>Удалить</td>
+    </tr>
+</table>
+<br>
+</body>
+</html>

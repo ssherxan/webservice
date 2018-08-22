@@ -1,0 +1,28 @@
+.form{
+	width: 300px;
+	margin-left: 50px;
+}
+legend{
+	font-size: medium;
+	font-family: Arial, 'Times New Roman', Times, serif;
+}
+label{
+	font-size: medium;
+	font-family: Arial, 'Times New Roman', Times, serif;
+}
+.first{
+	margin-left: 20px;
+}
+#name{
+	margin-left: 20px;
+}
+#email{
+	margin-left: 10px;
+	text-align: center;
+}
+.Vvod{
+	font-size: medium;
+	font-family: Arial, 'Times New Roman', Times, serif;
+	width: 100px;
+	margin-left: 50px;
+}
