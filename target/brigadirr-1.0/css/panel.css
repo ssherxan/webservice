@@ -1,0 +1,18 @@
+.form{
+	width: 300px;
+	margin-left: 50px;
+	padding-left: 70px;
+	font-size: medium;
+	font-family: Arial, 'Times New Roman', Times, serif;
+}
+legend{
+	font-size: medium;
+	font-family: Arial, 'Times New Roman', Times, serif;
+}
+.block1{
+	margin-left: 30px;
+}
+.block6{
+	margin-top: 20px;
+	margin-bottom: 10px
+}

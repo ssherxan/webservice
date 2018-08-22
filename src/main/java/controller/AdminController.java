@@ -19,7 +19,7 @@ public class AdminController extends HttpServlet {
         if(mesage.equals("add")){
             getServletContext().getRequestDispatcher("/insert.jsp").forward(req,resp);
         }
-        HashSet
+
        resp.getWriter().print(mesage);
 
 

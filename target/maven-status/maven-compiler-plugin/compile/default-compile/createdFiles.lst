@@ -1,0 +1,7 @@
+controller\AdminController.class
+controller\Autorization.class
+controller\DbController.class
+dao\Dao.class
+dao\DaoimplMySql.class
+controller\ViewController.class
+Entyti\Product.class

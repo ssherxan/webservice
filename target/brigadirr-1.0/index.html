@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BrigadiRR</title>
+    <link rel="stylesheet" type="text/css" href="css/style_index.css">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <script type="text/javascript">
+        function showElement(layer) {
+            var myLayer = document.getElementById(layer);
+            if (myLayer.style.display == "none") {
+                myLayer.style.display = "block";
+                myLayer.backgroundPosition = "top";
+            }
+            else {
+                myLayer.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+<header>
+    <span class="main_name">BRIGADIRR</span>
+    <div class="menu" onclick="javascript:showElement('v-menu')">
+        <img src="images/menu.png" class="png_menu">
+        <a href="autorization.html" id="v-menu" class="v-menu">Вход</a>
+    </div>
+</header>
+<div class="block1">
+    <div class="products">
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product">
+                    <form name="Rakovina" method="get" action="view">
+                        <input hidden name="catalog" value="Раковины" type="text">
+                        <input class="input" type="image" src="images/Rakovina.JPG" value="Раковины"></p>
+                    </form>
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                <form name="Rakovina" method="post" action="view">
+                    <input hidden name="catalog" value="Раковины" type="text" id="naeme">
+                    <input type="submit" value="Раковины"></p>
+                </form>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product">
+                    <form name="catalog" method="get" action="view">
+                        <input hidden name="catalog" value="Унитазы" type="text">
+                        <input class="input" type="image" src="images/Ynitaz.jpg" value="Унитазы"></p>
+                    </form>
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                <form name="Ynitaz" method="post" action="view">
+                    <input hidden name="catalog" value="Унитазы" type="text" id="Унитазы">
+                    <input type="submit" value="Унитазы"></p>
+                </form>
+                </a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <form name="catalog" method="get" action="view">
+                        <input hidden name="catalog" value="Душевые кабины" type="text">
+                        <input class="input" type="image" src="images/Dushevay.jpg" value="Душевые кабины"></p>
+                    </form>
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    <form name="Душевые кабины" method="post" action="view">
+                        <input hidden name="catalog" value="Душевые кабины" type="text" id="Душевые кабины">
+                        <input type="submit" value="Душевые кабины" class="Vvod"></p>
+                    </form>
+                </a>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <form name="catalog" method="get" action="view">
+                        <input hidden name="catalog" value="Ванны" type="text">
+                        <input class="input" type="image" src="images/Ванна.jpg" value="Ванны"></p>
+                    </form>
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    <form name="Ванны" method="post" action="view">
+                        <input hidden name="catalog" value="Ванны" type="text" id="Ванны">
+                        <input type="submit" value="Ванны" class="Vvod"></p>
+                    </form>
+                </a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <form name="catalog" method="get" action="view">
+                        <input hidden name="catalog" value="Смесители" type="text">
+                        <input class="input" type="image" src="images/Smesitel.jpg" value="Смесители"></p>
+                    </form>
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    <form name="Смесители" method="post" action="view">
+                        <input hidden name="catalog" value="Смесители" type="text" id="Смесители">
+                        <input type="submit" value="Смесители" class="Vvod"></p>
+                    </form>
+                </a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <img src="images/primer.jpg">
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    Прочее
+                </a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <img src="images/primer.jpg">
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    Прочее
+                </a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <img src="images/primer.jpg">
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    Прочее
+                </a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-card_image-container">
+                <a class="link_product" href="">
+                    <img src="images/primer.jpg">
+                </a>
+            </div>
+            <div class="product-card_name">
+                <a class="link_product_name" href="">
+                    Прочее
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
